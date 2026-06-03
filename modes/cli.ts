@@ -30,6 +30,7 @@ export async function runCliMode() {
         
         if (mode !== "agent" && mode !== "plan" && mode !== "ask") {
            console.log(chalk.yellow("\nThat mode is not implemented yet.\n"));
+           return;
         }
     }
 }
